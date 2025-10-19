@@ -6,20 +6,14 @@ __pycache__/
 *.pyc
 
 # Virtual environments
-venv/
-env/
 .venv/
 
 # Distribution/build
-build/
-dist/
 *.egg-info/
 
 # PyInstaller
 *.spec
 
-# PyQt UI forms (if you compile .ui to .py)
-*.ui.py
 
 # Logs and temp files
 *.log
@@ -42,16 +36,12 @@ Thumbs.db
 all_raw_results*.csv
 
 # Image folders (camera captures / datasets)
-image-*/
-image-s*/
-image-f*/
-image-sx/
-
+*.bmp
+*.png
+*.jpg
+*.jpeg
 # Large or generated folders used by the app
 ProcessFolder/
-MvImport/
-lib/
-StandardDimentions/
 
 # Tests / temporary project folders
 test/
