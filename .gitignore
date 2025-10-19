@@ -1,0 +1,63 @@
+# Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*$py.class
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Distribution/build
+build/
+dist/
+*.egg-info/
+
+# PyInstaller
+*.spec
+
+# PyQt UI forms (if you compile .ui to .py)
+*.ui.py
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Data files (don't track large datasets)
+*.xlsx
+*.xls
+all_raw_results*.csv
+
+# Image folders (camera captures / datasets)
+image-*/
+image-s*/
+image-f*/
+image-sx/
+
+# Large or generated folders used by the app
+ProcessFolder/
+MvImport/
+lib/
+StandardDimentions/
+
+# Tests / temporary project folders
+test/
+
+# Misc
+local_settings.py
+
+# If you add platform-specific virtualenvs or other folders, add them here
+# Example: C:\Users\You\AppData\Local\Programs\Python\Python39\
