@@ -2387,3 +2387,23 @@ C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: P
   coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
 C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
   coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+Main.py is running...
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251110_121130\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251110_121227\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251110_121719\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251110_121920\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251110_122030\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251110_122127\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251110_122225\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251110_122401\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251110_122603\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251110_131252\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251110_131350\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251110_131712\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251110_131844\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251110_132053\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251110_132212\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251110_132339\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251110_132440\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251110_132616\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251110_132802\F2_diff.txt

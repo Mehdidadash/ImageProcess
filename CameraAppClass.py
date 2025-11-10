@@ -1,4 +1,4 @@
-#capture.py
+#CameraAppClass.py
 import sys
 import time
 import re
@@ -60,136 +60,7 @@ def get_error_message(error_code):
     }
     return error_messages.get(error_code, "Unknown error")
 
-
-    log_signal = pyqtSignal(str)  # Signal to send log messages to the main thread
-
-    def __init__(self):
-        super().__init__()
-        self.camera = None
-        self.running = False
-        self.max_retries_value = 5
-        self.delay_between_retries_value = 0.05
-
-    def set_parameters(self, max_retries, delay_between_retries):
-        """Sets the parameters for the camera worker."""
-        self.max_retries_value = max_retries
-        self.delay_between_retries_value = delay_between_retries
-
-    def run_camera(self):
-        """Runs the camera operations."""
-        # Initialize camera
-        self.camera = MvCamera()
-        device_list = MV_CC_DEVICE_INFO_LIST()
-        ret = self.camera.MV_CC_EnumDevices(MV_GIGE_DEVICE | MV_USB_DEVICE, device_list)
-        if ret != 0:
-            self.log_signal.emit(f"Failed to enumerate devices. Error code: {hex(ret)}")
-            return
-
-        if device_list.nDeviceNum == 0:
-            self.log_signal.emit("No devices found.")
-            return
-
-        # Open the first camera
-        st_device_info = cast(device_list.pDeviceInfo[0], POINTER(MV_CC_DEVICE_INFO)).contents
-        ret = self.camera.MV_CC_CreateHandle(st_device_info)
-        if ret != 0:
-            self.log_signal.emit(f"Failed to create handle. Error code: {hex(ret)}")
-            return
-
-        ret = self.camera.MV_CC_OpenDevice()
-        if ret != 0:
-            self.log_signal.emit(f"Failed to open device. Error code: {hex(ret)}")
-            return
-
-        self.log_signal.emit("Camera opened successfully.")
-
-        # Start grabbing
-        ret = self.camera.MV_CC_StartGrabbing()
-        if ret != 0:
-            self.log_signal.emit(f"Failed to start grabbing. Error code: {hex(ret)}")
-            return
-
-        self.log_signal.emit("Grabbing started. Waiting for Line0 to go high...")
-
-        # Monitor Line0 and capture images
-        last_line0_state = False
-        try:
-            while self.running:  # Loop while the running flag is True
-                # Get current state of Line0
-                stBool = c_bool(False)
-                ret = self.camera.MV_CC_GetBoolValue("LineStatus", stBool)
-                if ret != 0:
-                    self.log_signal.emit(f"Failed to get Line0 status. Error code: {hex(ret)}")
-                    break
-
-                current_line0_state = stBool.value
-
-                # Check for rising edge (low to high transition)
-                if not last_line0_state and current_line0_state:
-                    self.log_signal.emit("Rising edge detected on Line0. Capturing image...")
-
-                    # Grab a valid frame
-                    stOutFrame = self.get_valid_frame()
-                    if stOutFrame:
-                        # Save the image
-                        timestamp = time.strftime("%Y%m%d_%H%M%S")
-                        file_path = f"image_{timestamp}.bmp"
-                        self.save_image_as_bmp(stOutFrame.stFrameInfo, stOutFrame.pBufAddr, file_path)
-
-                        # Free the frame buffer
-                        self.camera.MV_CC_FreeImageBuffer(stOutFrame)
-
-                last_line0_state = current_line0_state
-                time.sleep(0.01)  # Small delay to avoid busy-waiting
-
-        except Exception as e:
-            self.log_signal.emit(f"Error: {e}")
-        finally:
-            # Stop grabbing and close the camera
-            if self.camera:
-                self.camera.MV_CC_StopGrabbing()
-                self.camera.MV_CC_CloseDevice()
-                self.camera.MV_CC_DestroyHandle()
-                self.log_signal.emit("Camera closed.")
-
-    def get_valid_frame(self):
-        """Attempts to grab a valid frame, retrying if necessary."""
-        stOutFrame = MV_FRAME_OUT()
-        memset(byref(stOutFrame), 0, sizeof(stOutFrame))
-
-        for attempt in range(self.max_retries_value):
-            ret = self.camera.MV_CC_GetImageBuffer(stOutFrame, 1000)  # Timeout of 1000 ms
-            if ret == 0 and stOutFrame.stFrameInfo.nWidth > 0 and stOutFrame.stFrameInfo.nHeight > 0:
-                # Valid frame grabbed
-                self.log_signal.emit(f"Frame grabbed successfully on attempt {attempt + 1}.")
-                return stOutFrame
-            else:
-                # Frame grab failed
-                self.log_signal.emit(f"Frame grab failed on attempt {attempt + 1}. Return code: {hex(ret)}")
-                time.sleep(self.delay_between_retries_value)  # Delay between retries
-
-        # If no valid frame is grabbed after retries
-        self.log_signal.emit(f"Failed to get valid frame after {self.max_retries_value} retries.")
-        return None
-
-    def save_image_as_bmp(self, frame_info, buffer, file_path):
-        """Saves the captured image as a BMP file."""
-        stSaveParam = MV_SAVE_IMAGE_TO_FILE_PARAM_EX()
-        stSaveParam.enPixelType = frame_info.enPixelType
-        stSaveParam.nWidth = frame_info.nWidth
-        stSaveParam.nHeight = frame_info.nHeight
-        stSaveParam.nDataLen = frame_info.nFrameLen
-        stSaveParam.pData = cast(buffer, POINTER(c_ubyte))
-        stSaveParam.enImageType = MV_Image_Bmp
-        stSaveParam.pcImagePath = ctypes.create_string_buffer(file_path.encode('ascii'))
-        stSaveParam.iMethodValue = 1
-
-        ret = self.camera.MV_CC_SaveImageToFileEx(stSaveParam)
-        if ret == 0:
-            self.log_signal.emit(f"Image saved successfully: {file_path}")
-        else:
-            self.log_signal.emit(f"Failed to save image. Error code: {hex(ret)}")
-
+o
 # Main application window
 class CameraApp(QMainWindow):
     def __init__(self):
@@ -512,11 +383,12 @@ class CameraApp(QMainWindow):
         closest_filetype_integer = self.map_filetype_to_integer(closest_filetype)
         # Read HMI/PLC variable (e.g., M501) at process start and store in self.IS_SX
         try:
-            # address 1 corresponds to d4; unit/slave id 2 for your HMI (107-ev configured as unit 2)
-            self.IS_SX = self.read_hmi_register(address=1, unit=2, port='COM2', baudrate=9600)
+            # address 501 corresponds to M501; unit/slave id 2 for your HMI (107-ev configured as unit 2)
+            file_type_value = self.read_type_from_plc()
+            self.log_to_output(f"File type from PLC: {file_type_value}")
         except Exception:
             # If read fails, set to None and continue
-            self.IS_SX = None
+            self.log_to_output(f"File type from PLC: error")
 
         ###
         # Write the integer value to the HMI register (report result of image processing)
@@ -688,6 +560,34 @@ class CameraApp(QMainWindow):
                 client.close()
             except Exception:
                 pass
+
+    
+    def read_type_from_plc(self):
+        """
+        Reads the file type selection from PLC register D4 and maps it to integer.
+        Returns: 6 for SX, 7 for S1, 8 for S2, 9 for F1, 10 for F2, 11 for F3, -1 for error
+        """
+        try:
+            register_value = self.read_hmi_register(address=1, unit=2, port='COM2', baudrate=9600)
+            
+            # Direct mapping to final integer values
+            mapping = {
+                0: 6,   # SX
+                1: 7,   # S1
+                2: 8,   # S2  
+                3: 9,   # F1
+                4: 10,  # F2
+                5: 11   # F3
+            }
+            
+            result = mapping.get(register_value, -1)
+            self.log_to_output(f"PLC register value: {register_value} -> Mapped integer: {result}")
+            return result
+            
+        except Exception as e:
+            self.log_to_output(f"Error reading file type from PLC: {e}")
+            return -1
+
 
     def display_image(self, image_path):
         """Displays the captured image in the graphicsView. Waits briefly for the file to be written and tries multiple loaders."""
