@@ -1,18 +1,20 @@
 #capture.py
 import sys
 import time
+import re
 import CameraWorkerClass
 import ImageProcessLib as IPL
 import threading
 from ctypes import *
-from PyQt5.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QWidget, QLabel, QLineEdit, QPushButton, QTextEdit, QFileDialog, QMessageBox
+from PyQt5.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QWidget, QLabel, QLineEdit, QPushButton, QTextEdit, QFileDialog, QMessageBox, QTableWidget, QTableWidgetItem, QSizePolicy
 from PyQt5.QtCore import QObject, pyqtSignal, pyqtSlot
 from PyQt5.QtWidgets import QGraphicsScene
 from PyQt5.uic import loadUi
 from datetime import datetime
-from PyQt5.QtGui import QPixmap
+from PyQt5.QtGui import QPixmap, QBrush, QColor
 from PyQt5.QtCore import Qt
 import os
+import glob
 from pymodbus.client import ModbusSerialClient
 from pymodbus.exceptions import ModbusException
 sys.path.append("/MvImport")
@@ -204,7 +206,6 @@ class CameraApp(QMainWindow):
         self.pB_BrowseFolder.clicked.connect(self.browse_folder)
         self.pB_StartProcess.clicked.connect(self.start_processing)
         self.pB_TestRS485.clicked.connect(self.test_rs485_connection)
-
         # Start and Stop buttons
         self.pB_StartCamera.clicked.connect(self.start_camera)
         self.pB_StopCamera.clicked.connect(self.stop_camera)
@@ -212,6 +213,60 @@ class CameraApp(QMainWindow):
         # Quit button
         self.pB_Quit.clicked.connect(self.close)
 
+        # Add a table to display *_diff.txt results under Quit
+        # We'll create it programmatically and place it below existing widgets in the layout
+        # If the UI file already has a placeholder, this will simply set up the table object
+        self.diff_table = QTableWidget(self)
+        self.diff_table.setColumnCount(2)
+        self.diff_table.setHorizontalHeaderLabels(["Index", "Diff Value"])
+        # Optionally set a reasonable initial size
+        self.diff_table.setMinimumHeight(150)
+        # Make table expand vertically to fill the area under Quit; keep Preferred width to match Quit
+        sp = QSizePolicy(QSizePolicy.Preferred, QSizePolicy.Expanding)
+        sp.setHorizontalStretch(0)
+        sp.setVerticalStretch(1)
+        self.diff_table.setSizePolicy(sp)
+
+        # Insert the table into the Inputs/Controls layout under the Quit button
+        try:
+            # The layout object created by loadUi is named 'Layout_InputsAndControls'
+            if hasattr(self, 'Layout_InputsAndControls'):
+                # try to find the Quit button position and insert after it
+                try:
+                    # find index of pB_Quit in the layout
+                    idx = None
+                    for i in range(self.Layout_InputsAndControls.count()):
+                        item = self.Layout_InputsAndControls.itemAt(i)
+                        if item and item.widget() is not None and item.widget().objectName() == 'pB_Quit':
+                            idx = i
+                            break
+
+                    if idx is not None:
+                        # try inserting before the bottom spacer if present
+                        insert_index = idx + 1
+                        # if the last item is a spacer, insert before it
+                        count = self.Layout_InputsAndControls.count()
+                        if count > 0:
+                            last_item = self.Layout_InputsAndControls.itemAt(count - 1)
+                            try:
+                                if last_item.spacerItem() is not None:
+                                    insert_index = count - 1
+                            except Exception:
+                                pass
+                        self.Layout_InputsAndControls.insertWidget(insert_index, self.diff_table, 1)
+                    else:
+                        self.Layout_InputsAndControls.addWidget(self.diff_table)
+                except Exception:
+                    self.Layout_InputsAndControls.addWidget(self.diff_table)
+            else:
+                # fall back: append to the verticalLayoutWidget if present
+                try:
+                    self.verticalLayoutWidget.layout().addWidget(self.diff_table)
+                except Exception:
+                    pass
+        except Exception as e:
+            # Don't crash UI init if insertion fails
+            self.log_to_output(f"Failed to insert diff table into layout: {e}")
 
         # Camera worker and thread
         self.camera_worker = CameraWorkerClass.CameraWorker()
@@ -220,6 +275,7 @@ class CameraApp(QMainWindow):
         # Connect the log signal and count signal to the log method
         self.camera_worker.log_signal.connect(self.log_to_output)
         self.camera_worker.image_saved_signal.connect(self.check_image_count)  # Connect signal to check image count
+
 
 
     def test_rs485_connection(self):
@@ -329,6 +385,13 @@ class CameraApp(QMainWindow):
             # Call the MAIN function from ImageProcessLib
             plot_output_path, closest_filetype = IPL.MAIN(self.selected_folder)
 
+            # Try to resolve returned path (IPL.MAIN may return a relative filename)
+            resolved = self.resolve_plot_path(plot_output_path, search_folder=self.selected_folder)
+            if not resolved:
+                self.log_to_output(f"Plot not found after IPL.MAIN returned: {plot_output_path}")
+            else:
+                plot_output_path = resolved
+
             # Log the results
             self.log_to_output(f"Processing completed. Closest file type: {closest_filetype}")
             self.log_to_output(f"Plot saved at: {plot_output_path}")
@@ -404,6 +467,13 @@ class CameraApp(QMainWindow):
         # Process images and get closest filetype
         plot_output_path, closest_filetype = IPL.MAIN(unique_folder_path)
 
+        # resolve plot path (IPL.MAIN may return relative name)
+        resolved = self.resolve_plot_path(plot_output_path, search_folder=unique_folder_path)
+        if not resolved:
+            self.log_to_output(f"Plot not found after IPL.MAIN returned: {plot_output_path}")
+        else:
+            plot_output_path = resolved
+
         # Rename the folder to append the closest type
         new_folder_name = unique_folder_name + f"_{closest_filetype}"
         new_folder_path = os.path.join(process_folder_path, new_folder_name)
@@ -415,10 +485,34 @@ class CameraApp(QMainWindow):
         # Update path for further use
         unique_folder_path = new_folder_path
 
+        # Try to resolve plot path again now that folder may have been renamed
+        resolved_after_rename = self.resolve_plot_path(plot_output_path, search_folder=unique_folder_path)
+        if resolved_after_rename:
+            plot_output_path = resolved_after_rename
+        else:
+            # Final fallback: search the ProcessFolder parent for any matching pngs using the unique folder prefix
+            try:
+                parent_process = os.path.dirname(unique_folder_path)
+                prefix = os.path.basename(unique_folder_path).split('_')[0]
+                patterns = [f"{prefix}*comparison_plot*.png", f"{prefix}*_plot.png", f"{prefix}*.png"]
+                found = None
+                for p in patterns:
+                    matches = glob.glob(os.path.join(parent_process, "**", p), recursive=True)
+                    if matches:
+                        found = matches[0]
+                        break
+                if found:
+                    self.log_to_output(f"Found plot via final fallback: {found}")
+                    plot_output_path = found
+                else:
+                    self.log_to_output(f"Final fallback: no plot found for prefix {prefix} in {parent_process}")
+            except Exception as e:
+                self.log_to_output(f"Error during final fallback search: {e}")
+
         closest_filetype_integer = self.map_filetype_to_integer(closest_filetype)
         # Read HMI/PLC variable (e.g., M501) at process start and store in self.IS_SX
         try:
-            # address 501 corresponds to M501; unit/slave id 2 for your HMI (107-ev configured as unit 2)
+            # address 1 corresponds to d4; unit/slave id 2 for your HMI (107-ev configured as unit 2)
             self.IS_SX = self.read_hmi_register(address=1, unit=2, port='COM2', baudrate=9600)
         except Exception:
             # If read fails, set to None and continue
@@ -434,6 +528,22 @@ class CameraApp(QMainWindow):
 
         self.log_to_output(f"Process Is completed, closest file type is:  {closest_filetype}")
         self.display_image(plot_output_path)
+
+        # Try to locate any *_diff.txt file in the processed folder and display it
+        try:
+            # use unique_folder_path which points to the renamed folder
+            diff_matches = glob.glob(os.path.join(unique_folder_path, "*_diff.txt"))
+            if diff_matches:
+                # pick the first one
+                self.display_diff_file(diff_matches[0])
+            else:
+                # also try searching parent ProcessFolder as fallback
+                parent_process = os.path.dirname(unique_folder_path)
+                diff_matches = glob.glob(os.path.join(parent_process, "**", "*_diff.txt"), recursive=True)
+                if diff_matches:
+                    self.display_diff_file(diff_matches[0])
+        except Exception as e:
+            self.log_to_output(f"Error searching for diff files: {e}")
 
     def write_to_hmi_register(self, value):
 
@@ -580,16 +690,229 @@ class CameraApp(QMainWindow):
                 pass
 
     def display_image(self, image_path):
-        """Displays the captured image in the graphicsView."""
-        pixmap = QPixmap(image_path)  # Load the image as a QPixmap
-        if pixmap.isNull():
+        """Displays the captured image in the graphicsView. Waits briefly for the file to be written and tries multiple loaders."""
+        if not image_path:
+            self.log_to_output("No image path provided to display_image.")
+            return
+
+        timeout = 8.0  # seconds
+        interval = 0.2
+        waited = 0.0
+
+        # Wait for file to exist and be non-empty
+        while waited < timeout:
+            if os.path.exists(image_path):
+                try:
+                    size = os.path.getsize(image_path)
+                except Exception as e:
+                    self.log_to_output(f"Could not get file size: {e}")
+                    size = 0
+                if size > 0:
+                    break
+            time.sleep(interval)
+            waited += interval
+
+        if not os.path.exists(image_path):
+            self.log_to_output(f"Image file does not exist: {image_path}")
+            return
+        try:
+            size = os.path.getsize(image_path)
+        except Exception as e:
+            self.log_to_output(f"Could not get file size: {e}")
+            size = 0
+        self.log_to_output(f"Image exists. size={size} bytes, path={image_path}")
+
+        # Try to read file bytes (better when the file gets locked by another process)
+        data = None
+        try:
+            with open(image_path, "rb") as f:
+                data = f.read()
+        except Exception as e:
+            self.log_to_output(f"Failed to open image file for reading: {e}")
+
+        pixmap = QPixmap()
+        loaded = False
+
+        # Primary: try loadFromData if we have bytes
+        if data:
+            try:
+                loaded = pixmap.loadFromData(data)
+                if loaded and not pixmap.isNull():
+                    self.log_to_output("Loaded image with QPixmap.loadFromData()")
+            except Exception as e:
+                self.log_to_output(f"loadFromData failed: {e}")
+                loaded = False
+
+        # Secondary: try direct load from path
+        if not loaded:
+            try:
+                loaded = pixmap.load(image_path)
+                if loaded and not pixmap.isNull():
+                    self.log_to_output("Loaded image with QPixmap.load(path)")
+            except Exception as e:
+                self.log_to_output(f"QPixmap.load(path) failed: {e}")
+                loaded = False
+
+        # Fallback: try QImage then convert
+        if (not loaded) or pixmap.isNull():
+            try:
+                from PyQt5.QtGui import QImage
+                img = QImage()
+                if data:
+                    ok = img.loadFromData(data)
+                else:
+                    ok = img.load(image_path)
+                if ok and not img.isNull():
+                    pixmap = QPixmap.fromImage(img)
+                    loaded = True
+                    self.log_to_output("Loaded image via QImage -> QPixmap")
+                else:
+                    self.log_to_output("QImage could not load the image")
+            except Exception as e:
+                self.log_to_output(f"QImage fallback failed: {e}")
+
+        # Optional diagnostic using PIL to verify image validity (if installed)
+        if (not loaded) and data:
+            try:
+                from io import BytesIO
+                try:
+                    from PIL import Image
+                    bio = BytesIO(data)
+                    im = Image.open(bio)
+                    im.verify()  # will raise if image is broken
+                    # reload to get a usable image
+                    bio.seek(0)
+                    im = Image.open(bio).convert("RGBA")
+                    # convert PIL image to QImage
+                    from PyQt5.QtGui import QImage
+                    qim = QImage(im.tobytes("raw", "RGBA"), im.width, im.height, QImage.Format_RGBA8888)
+                    pixmap = QPixmap.fromImage(qim)
+                    loaded = True
+                    self.log_to_output("Validated and loaded image via PIL -> QImage")
+                except ImportError:
+                    self.log_to_output("PIL not available; skipping PIL validation")
+                except Exception as e:
+                    self.log_to_output(f"PIL validation failed: {e}")
+            except Exception:
+                pass
+
+        if (not loaded) or pixmap.isNull():
             self.log_to_output(f"Failed to load image: {image_path}")
             return
 
-        self.scene.clear()  # Clear the previous image from the scene
-        self.scene.addPixmap(pixmap)  # Add the new image to the scene
-        self.graphicsView.fitInView(self.scene.itemsBoundingRect(), Qt.KeepAspectRatio)  # Fit the image to the view
-        self.log_to_output(f"Displayed image: {image_path}")    
+        # Display
+        try:
+            self.scene.clear()
+            self.scene.addPixmap(pixmap)
+            self.graphicsView.fitInView(self.scene.itemsBoundingRect(), Qt.KeepAspectRatio)
+            # Force a UI update
+            try:
+                self.graphicsView.viewport().update()
+            except Exception:
+                pass
+            self.log_to_output(f"Displayed image: {image_path}")
+        except Exception as e:
+            self.log_to_output(f"Failed to display pixmap: {e}")
+
+    def resolve_plot_path(self, plot_output_path, search_folder=None):
+        """Make returned plot path usable:
+           - accept absolute path
+           - try as relative to search_folder
+           - fallback: search for '*comparison_plot*.png' (or any .png) in search_folder
+        """
+        if not plot_output_path:
+            self.log_to_output("resolve_plot_path: no path returned")
+            return None
+
+        # if absolute and exists, return it
+        if os.path.isabs(plot_output_path) and os.path.exists(plot_output_path):
+            return plot_output_path
+
+        # try as absolute (in case returned relative)
+        abs_candidate = os.path.abspath(plot_output_path)
+        if os.path.exists(abs_candidate):
+            return abs_candidate
+
+        # try relative to provided search_folder
+        if search_folder:
+            rel_candidate = os.path.join(search_folder, plot_output_path)
+            if os.path.exists(rel_candidate):
+                return rel_candidate
+            rel_candidate2 = os.path.abspath(rel_candidate)
+            if os.path.exists(rel_candidate2):
+                return rel_candidate2
+
+        # fallback: search common names in search_folder (or parent dir of returned path)
+        folder_to_search = search_folder or os.path.dirname(plot_output_path) or self.selected_folder or os.getcwd()
+        try:
+            patterns = ['*comparison_plot*.png', '*_plot.png', '*.png']
+            for p in patterns:
+                matches = glob.glob(os.path.join(folder_to_search, p))
+                if matches:
+                    self.log_to_output(f"resolve_plot_path: using found file {matches[0]}")
+                    return matches[0]
+        except Exception as e:
+            self.log_to_output(f"resolve_plot_path: search failed: {e}")
+
+        self.log_to_output(f"resolve_plot_path: unable to resolve plot path: {plot_output_path}")
+        return None
+
+    def display_diff_file(self, diff_path):
+        """Read a *_diff.txt file and populate the diff_table.
+
+        First column: index (0..n-1)
+        Second column: numeric diff value from the file
+        Values outside [-0.03, 0.03] are colored red.
+        """
+        if not diff_path or not os.path.exists(diff_path):
+            self.log_to_output(f"Diff file not found: {diff_path}")
+            return
+
+        try:
+            with open(diff_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception as e:
+            self.log_to_output(f"Failed to read diff file {diff_path}: {e}")
+            return
+
+        # Extract numbers from the file. Assume a line-per-value or whitespace-separated values.
+        numbers = []
+        for line in content.splitlines():
+            line = line.strip()
+            if not line:
+                continue
+            # try to parse a single float from the line
+            m = re.search(r"[-+]?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?", line)
+            if m:
+                try:
+                    numbers.append(float(m.group(0)))
+                except Exception:
+                    continue
+
+        # Fallback: if no numbers by lines, try to find all floats in the whole file
+        if not numbers:
+            for m in re.finditer(r"[-+]?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?", content):
+                try:
+                    numbers.append(float(m.group(0)))
+                except Exception:
+                    pass
+
+        # Populate table
+        self.diff_table.setRowCount(len(numbers))
+        for i, val in enumerate(numbers):
+            idx_item = QTableWidgetItem(str(i))
+            val_item = QTableWidgetItem(f"{val:.6f}")
+
+            # Color out-of-range values red
+            if val > 0.015 or val < -0.015:
+                val_item.setForeground(QBrush(QColor('orange')))
+            if val > 0.03 or val < -0.03:
+                val_item.setForeground(QBrush(QColor('red')))
+
+            self.diff_table.setItem(i, 0, idx_item)
+            self.diff_table.setItem(i, 1, val_item)
+
+        self.log_to_output(f"Displayed diff file: {diff_path} with {len(numbers)} entries")
 
     def map_filetype_to_integer(self, filetype):
         """

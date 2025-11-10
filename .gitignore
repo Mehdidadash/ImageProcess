@@ -51,3 +51,7 @@ local_settings.py
 
 # If you add platform-specific virtualenvs or other folders, add them here
 # Example: C:\Users\You\AppData\Local\Programs\Python\Python39\
+plc_filetype_patch.patch
+3.csv
+_2.csv
+type_counts.csv

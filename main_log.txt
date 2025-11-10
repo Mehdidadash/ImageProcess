@@ -1416,3 +1416,974 @@ Diameter differences written to: C:\Users\DTA-image\Documents\main\ProcessFolder
 Writing -1 to S0 (address 0)...
 Main.py is running...
 Diameter differences written to: C:\Users\DTA-image\Documents\main\ProcessFolder\20251019_153454\SX_diff.txt
+Main.py is running...
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_165818\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_170106\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_170520\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_172452\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_172634\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_172811\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_172948\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_173220\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_174125\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_174427\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_174816\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_180001\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_180139\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_180509\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_181326\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_181609\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_182510\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_182844\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_185438\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_185822\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_190228\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_190514\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_190853\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_191648\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_192024\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_192402\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_192732\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251019_193109\SX_diff.txt
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+Main.py is running...
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_110125\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_110313\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_111121\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_111511\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_111918\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_112334\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_112831\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_113242\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_113813\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_114049\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_114441\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_114855\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_115258\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_115706\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_120117\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_120517\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_120950\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_121333\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_121735\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_122137\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_122545\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_123021\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_124949\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_125307\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_125447\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_130307\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_130623\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_130952\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_131632\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_131815\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_132002\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_132639\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_133044\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_133452\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_133917\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_141149\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_141552\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_142018\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_142456\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_142845\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_143251\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_143731\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_144133\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_144542\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_144946\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_145355\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_145757\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_150204\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_150605\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_151017\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_151423\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_151834\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_152236\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_152643\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_153047\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_153454\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_153857\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_154258\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_155509\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_155924\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_160101\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_160243\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_160416\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_160738\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_161145\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_161551\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_162357\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_162533\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_162829\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_163220\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_163627\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_164043\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_164959\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_165428\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_174950\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_175351\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_175805\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_180517\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_180650\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_181044\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_181508\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_182104\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_183236\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_183410\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_183544\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_183721\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_184120\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_184528\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_184643\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_184806\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_184943\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_185106\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_185234\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_185413\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_185629\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_190001\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_190135\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_190256\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_190414\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_190513\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_190612\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_190710\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_190808\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_190908\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_191010\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_191112\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_191213\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_191313\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_191414\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_191515\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_191615\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_191723\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_191823\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_191923\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_192021\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_192120\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_192219\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_192318\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_192417\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_192518\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_192619\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_192717\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_192815\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_192919\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_193017\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_193115\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_193215\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_193316\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_193417\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_193516\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_193616\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_193716\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251020_193815\F2_diff.txt
+Main.py is running...
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_133738\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_135028\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_135124\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_135324\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_135455\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_135606\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_135702\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_135940\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_140417\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_140756\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_141153\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_141606\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_142010\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_142414\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_142819\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_143229\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_143630\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_144037\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_144457\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_144851\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_145255\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_145707\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_151005\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_151436\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_151814\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_152316\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_152628\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_153436\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_153606\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_153847\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_154255\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_154736\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_155107\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_155514\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_155920\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_160332\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_160739\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_161143\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_161552\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_161954\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_162354\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_162800\S2_diff.txt
+Main.py is running...
+Main.py is running...
+Main.py is running...
+Main.py is running...
+Main.py is running...
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_164430\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_164600\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_164753\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_164923\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_165054\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_171259\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_171724\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_172208\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_173246\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_173645\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_174045\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_174452\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_174855\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_175304\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_175952\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_180136\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_180515\F1_diff.txt
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:676: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:,0], arrow_top[:,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:676: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:,0], arrow_top[:,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:676: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:,0], arrow_top[:,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+Main.py is running...
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_181750\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_181921\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_182056\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_182227\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_182544\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_182949\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_183354\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_183753\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_184200\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_184600\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_185019\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_185417\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_185846\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_190558\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_190728\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_191045\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_191547\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_191942\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_192304\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_192702\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251021_193120\F1_diff.txt
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:676: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:,0], arrow_top[:,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:676: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:,0], arrow_top[:,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:676: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:,0], arrow_top[:,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:696: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_down[:,0], arrow_down[:,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:703: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_down[:-2,0], arrow_down[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:696: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_down[:,0], arrow_down[:,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:703: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_down[:-2,0], arrow_down[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:696: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_down[:,0], arrow_down[:,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:703: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_down[:-2,0], arrow_down[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+Main.py is running...
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_131353\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_131524\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_131656\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_131847\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_132018\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_132154\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_132325\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_133159\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_133331\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_133651\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_134336\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_134507\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_135341\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_135512\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_135645\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_140510\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_140642\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_141307\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_141439\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_142113\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_142245\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_142914\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_143045\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_143753\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_143925\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_151243\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_151415\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_151618\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_151751\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_151939\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_152111\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_152302\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_152434\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_152617\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_152748\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_152945\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_153139\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_153549\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_153721\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_154043\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_154215\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_155308\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_155440\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_161418\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_161616\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_161748\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_161928\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_162100\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_162235\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_162506\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_162638\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_165632\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_165804\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_165954\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_170125\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_170353\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_170525\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_174607\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_174739\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_174910\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_175042\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_175214\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_175345\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_175517\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_175649\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_175820\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_175952\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_180123\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_180255\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_180427\F3_diff.txtMain.py is running...
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_185006\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_185141\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_185312\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_185444\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_185923\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_190055\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_190226\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_190359\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_190531\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_190702\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_190840\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_191013\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251022_191146\F3_diff.txt
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:676: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:,0], arrow_top[:,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:676: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:,0], arrow_top[:,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:676: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:,0], arrow_top[:,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+Main.py is running...
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251023_170256\SX_diff.txt
+Main.py is running...
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_115257\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_115433\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_115809\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_120626\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_120901\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_121053\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_121524\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_122750\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_123043\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_123635\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_124356\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_125248\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_125418\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_125548\S1_diff.txt
+Main.py is running...
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_132501\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_132631\S1_diff.txt
+Main.py is running...
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_132825\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_132956\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_133132\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_133305\S1_diff.txt
+Main.py is running...
+Traceback (most recent call last):
+  File "C:\Users\DTA-image\Documents\ImageProcess\Main.py", line 5, in <module>
+    import CameraAppClass
+  File "C:\Users\DTA-image\Documents\ImageProcess\CameraAppClass.py", line 192, in <module>
+    class CameraApp(QMainWindow):
+  File "C:\Users\DTA-image\Documents\ImageProcess\CameraAppClass.py", line 441, in CameraApp
+    self.log_to_output(f"Process Is completed, closest file type is:  {closest_filetype}")
+    ^^^^
+NameError: name 'self' is not defined
+Main.py is running...
+Traceback (most recent call last):
+  File "C:\Users\DTA-image\Documents\ImageProcess\Main.py", line 5, in <module>
+    import CameraAppClass
+  File "C:\Users\DTA-image\Documents\ImageProcess\CameraAppClass.py", line 192, in <module>
+    class CameraApp(QMainWindow):
+  File "C:\Users\DTA-image\Documents\ImageProcess\CameraAppClass.py", line 441, in CameraApp
+    self.log_to_output(f"Process Is completed, closest file type is:  {closest_filetype}")
+    ^^^^
+NameError: name 'self' is not defined
+Main.py is running...
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_141948\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_142126\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_142300\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_142430\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_142601\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_142734\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_142912\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_143045\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_143215\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_143357\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_143527\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_143702\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_143851\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_144021\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_144152\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_144326\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_144459\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_144704\S2_diff.txt
+Main.py is running...
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_151253\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_151425\S2_diff.txt
+Main.py is running...
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_151648\S2_diff.txt
+Main.py is running...
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_152559\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_153006\S1_diff.txt
+Main.py is running...
+Main.py is running...
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_154652\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_154822\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_154955\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_155412\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_155921\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_160315\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_160733\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_161004\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_161140\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_161637\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_161819\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_162444\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_162627\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_163232\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_164053\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_164246\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_165008\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_165139\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_165536\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_165938\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_170553\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_170946\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_171339\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_171731\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_172123\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_172516\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_172908\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_173301\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_173714\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_174106\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_174500\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_175129\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_175522\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_175653\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_175835\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_180119\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_181418\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_181810\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_182205\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_182839\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_183456\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_183924\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_184319\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_184722\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_185114\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_185506\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_185900\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_190349\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_190525\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_190929\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_191545\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_191937\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_192330\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_192829\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_193223\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_193416\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_194030\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_194458\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_194850\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_195243\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_195724\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_200333\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_200726\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_201118\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_201511\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_201903\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_202255\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_202711\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_203104\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_203456\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_203848\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_204240\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_204633\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_205030\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_205941\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_210333\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_210734\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_211126\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_212125\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251025_212255\S1_diff.txt
+Main.py is running...
+Main.py is running...
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_102829\S2_diff.txt
+Main.py is running...
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_105858\S2_diff.txt
+Main.py is running...
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_110311\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_110534\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_110629\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_110802\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_111418\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_111547\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_112630\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_112805\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_113420\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_114608\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_114737\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_115128\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_115519\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_115704\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_120317\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_120446\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_120837\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_121338\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_121729\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_121857\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_122307\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_122657\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_123048\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_123635\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_123805\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_124200\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_124328\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_125426\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_125817\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_130208\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_130612\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_131003\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_131400\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_131751\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_132207\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_132335\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_132736\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_133127\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_133545\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_133733\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_134124\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_134516\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_134908\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_135259\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_135657\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_140048\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_140439\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_140609\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_141001\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_141753\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_141923\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_142132\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_142633\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_142802\SX_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_144947\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_145343\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_150541\S1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_151158\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_151550\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_152427\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_152822\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_153215\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_153607\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_154005\S2_diff.txt
+Main.py is running...
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_164458\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_164857\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_165312\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_165717\S2_diff.txt
+Main.py is running...
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_170110\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251026_170502\S1_diff.txt
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+Main.py is running...
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_103525\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_103619\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_104617\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_105104\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_110716\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_111206\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_112401\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_112533\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_112954\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_114416\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_114833\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_115403\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_120543\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_121313\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_121443\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_122322\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_122732\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_123135\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_123557\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_123950\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_124406\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_124805\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_125211\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_125620\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_130025\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_130432\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_130856\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_131303\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_131657\F1_diff.txt
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:676: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:,0], arrow_top[:,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:676: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:,0], arrow_top[:,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:676: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:,0], arrow_top[:,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:676: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:,0], arrow_top[:,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:676: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:,0], arrow_top[:,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:676: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:,0], arrow_top[:,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:676: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:,0], arrow_top[:,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:676: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:,0], arrow_top[:,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:676: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:,0], arrow_top[:,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:703: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_down[:-2,0], arrow_down[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:703: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_down[:-2,0], arrow_down[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:703: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_down[:-2,0], arrow_down[:-2,1], 1)
+Main.py is running...
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_132505\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_132637\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_133341\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_133512\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_134206\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_134337\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_135008\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_135139\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_135841\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_140012\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_140537\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_140708\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_141048\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_141910\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_142041\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_142304\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_142700\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_143541\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_143712\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_144227\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_144358\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_145149\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_145600\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_150045\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_150419\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_152334\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_152848\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_153228\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_153635\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_154413\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_154547\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_154943\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_155055\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_155158\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_155308\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_155446\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_155817\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_160151\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_160542\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_160935\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_161502\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_161936\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_162258\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_162832\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_163154\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_163516\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_163649\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_164025\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_164347\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_164709\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_165050\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_165538\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_165901\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_170413\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_170726\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_171124\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_171554\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_172009\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_172142\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_172504\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_172826\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_173208\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_173810\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_174205\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_174614\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_175028\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_175435\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_175829\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_180240\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_180640\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_181049\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_181456\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_181944\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_183219\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_183350\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_183521\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_183653\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_183944\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_190138\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_190309\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_190441\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_190613\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_190745\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_190916\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_191047\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_191228\S2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_194731\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_194902\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_195034\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_195205\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251027_195337\F1_diff.txt
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:703: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_down[:-2,0], arrow_down[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:703: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_down[:-2,0], arrow_down[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:703: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_down[:-2,0], arrow_down[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:696: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_down[:,0], arrow_down[:,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:703: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_down[:-2,0], arrow_down[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:696: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_down[:,0], arrow_down[:,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:703: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_down[:-2,0], arrow_down[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:696: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_down[:,0], arrow_down[:,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:703: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_down[:-2,0], arrow_down[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:676: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:,0], arrow_top[:,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:676: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:,0], arrow_top[:,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:676: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:,0], arrow_top[:,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+Main.py is running...
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_103032\F1_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_103205\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_105109\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_105641\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_110322\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_110858\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_111345\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_112057\F3_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_114335\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_114528\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_114659\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_114911\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_115042\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_115229\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_115359\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_115530\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_120353\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_120524\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_121716\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_121846\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_122029\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_122205\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_122343\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_122555\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_123027\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_123400\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_124238\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_125319\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_125449\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_125659\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_130136\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_130545\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_131015\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_131644\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_131815\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_132325\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_132835\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_133457\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_133952\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_134123\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_134935\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_135106\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_135323\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_135747\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_142544\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_142716\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_142847\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_143022\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_143153\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_143324\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_143455\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_144021\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_144152\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_144323\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_144455\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_144701\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_145104\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_145503\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_145916\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_150325\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_150741\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_152435\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_152627\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_152759\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251028_152931\F2_diff.txt
+Main.py is running...
+Main.py is running...
+Main.py is running...
+Main.py is running...
+Main.py is running...
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251109_150032\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251109_150336\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251109_151126\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251109_151857\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251109_152034\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251109_152746\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251109_153148\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251109_153556\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251109_154029\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251109_154421\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251109_154942\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251109_155307\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251109_160130\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251109_160707\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251109_160943\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251109_161406\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251109_200332\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251109_200956\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251109_202933\F2_diff.txt
+Diameter differences written to: C:\Users\DTA-image\Documents\ImageProcess\ProcessFolder\20251109_203108\F2_diff.txt
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)
+C:\Users\DTA-image\Documents\ImageProcess\ImageProcessLib.py:683: RankWarning: Polyfit may be poorly conditioned
+  coefs = np.polyfit(arrow_top[:-2,0], arrow_top[:-2,1], 1)

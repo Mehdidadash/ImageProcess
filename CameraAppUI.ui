@@ -2,46 +2,40 @@
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
-  <property name="geometry">
-   <rect>
-    <x>0</x>
-    <y>0</y>
-    <width>1200</width>
-    <height>768</height>
-   </rect>
-  </property>
-  <property name="sizePolicy">
-   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-    <horstretch>0</horstretch>
-    <verstretch>0</verstretch>
-   </sizepolicy>
-  </property>
-  <property name="minimumSize">
-   <size>
-    <width>1200</width>
-    <height>650</height>
-   </size>
-  </property>
-  <property name="maximumSize">
-   <size>
-    <width>1200</width>
-    <height>650</height>
-   </size>
-  </property>
+    <property name="geometry">
+     <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1200</width>
+        <height>768</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralwidget">
-   <widget class="QWidget" name="verticalLayoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>10</y>
-      <width>300</width>
-      <height>780</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="Layout_InputsAndControls">
+   <widget class="QWidget" name="centralwidget">
+    <layout class="QHBoxLayout" name="topLevelHBox" stretch="1,6">
+      <item>
+       <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+      <property name="maximumSize">
+       <size>
+        <width>360</width>
+        <height>16777215</height>
+       </size>
+      </property>
+         <layout class="QVBoxLayout" name="Layout_InputsAndControls">
      <item>
       <widget class="QLabel" name="label_3">
        <property name="font">
@@ -254,78 +248,90 @@
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="horizontalLayoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>320</x>
-      <y>10</y>
-      <width>860</width>
-      <height>460</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="horizontalLayout" stretch="2,6">
-     <property name="sizeConstraint">
-      <enum>QLayout::SetNoConstraint</enum>
+   </item>
+   <item>
+    <widget class="QWidget" name="rightColumn">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+      </sizepolicy>
      </property>
-     <item>
-      <widget class="QGroupBox" name="groupBox_3">
-       <property name="title">
-        <string/>
-       </property>
-       <widget class="QGraphicsView" name="graphicsView">
-        <property name="geometry">
-         <rect>
-          <x>5</x>
-          <y>11</y>
-          <width>850</width>
-          <height>640</height>
-         </rect>
+     <layout class="QVBoxLayout" name="rightColumnVBox" stretch="3,1">
+      <item>
+      <widget class="QWidget" name="horizontalLayoutWidget">
+       <layout class="QHBoxLayout" name="horizontalLayout" stretch="2,6">
+        <property name="sizeConstraint">
+         <enum>QLayout::SetNoConstraint</enum>
         </property>
-       </widget>
+        <item>
+         <widget class="QGroupBox" name="groupBox_3">
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QVBoxLayout" name="groupBox3VBox">
+          <item>
+           <widget class="QGraphicsView" name="graphicsView">
+            <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+            </property>
+           </widget>
+          </item>
+         </layout>
+         </widget>
+        </item>
+       </layout>
       </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="verticalLayoutWidget_5">
-    <property name="geometry">
-     <rect>
-      <x>320</x>
-      <y>480</y>
-      <width>860</width>
-      <height>320</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="Layout_Outputs">
-     <item>
-      <widget class="QGroupBox" name="groupBox_4">
-       <property name="title">
-        <string>Outputs</string>
+      </item>
+      <item>
+      <widget class="QWidget" name="verticalLayoutWidget_5">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
        </property>
-       <widget class="QTextEdit" name="tE_Outputs">
-        <property name="geometry">
-         <rect>
-          <x>13</x>
-          <y>20</y>
-          <width>751</width>
-          <height>131</height>
-         </rect>
-        </property>
-       </widget>
+       <layout class="QVBoxLayout" name="Layout_Outputs">
+        <item>
+         <widget class="QGroupBox" name="groupBox_4">
+         <property name="title">
+          <string>Outputs</string>
+         </property>
+         <layout class="QVBoxLayout" name="groupBox4VBox">
+          <item>
+           <widget class="QTextEdit" name="tE_Outputs">
+            <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+            </property>
+           </widget>
+          </item>
+         </layout>
+         </widget>
+        </item>
+       </layout>
       </widget>
-     </item>
-    </layout>
-   </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   </layout>
   </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>1200</width>
-     <height>21</height>
-    </rect>
-   </property>
-  </widget>
+    <widget class="QMenuBar" name="menubar">
+     <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>800</width>
+         <height>21</height>
+        </rect>
+     </property>
+    </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
